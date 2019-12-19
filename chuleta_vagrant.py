@@ -11,4 +11,7 @@
     vagrant halt
     # Destruir maquina virtual
     vagrant destroy
-    
+    # COMERCIAL Instalar KDE
+    yum groupinstall 'KDE' 'X Window System'
+    systemctl set-default graphical.target
+    reboot
