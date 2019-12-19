@@ -7,6 +7,8 @@
     end
     # Para subir maquina desde el Vagrantfile
     vagrant up
-    # Parar maquina virtual
+    # Apagar maquina virtual
     vagrant halt
+    # Destruir maquina virtual
+    vagrant destroy
     
